@@ -67,5 +67,5 @@ const elements = document.querySelectorAll(".hidden");
 elements.forEach((element) => {
   setTimeout(function () {
     element.classList.remove("hidden");
-  }, 1500);
+  }, 1550);
 });
