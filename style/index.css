@@ -4,6 +4,7 @@ body {
 }
 #unity-container {
   position: absolute;
+  /* height: calc(100% + 20px); */
 }
 #unity-container.unity-desktop {
   left: 50%;
@@ -19,9 +20,21 @@ body {
 }
 .unity-mobile #unity-canvas {
   width: 100%;
-  height: 100%;
 }
-#unity-loading-bar {
+
+#about {
+  position: relative;
+  background-color: #660708;
+  color: white;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 2px 7px;
+}
+#about:hover {
+  text-decoration: underline;
+}
+
+/* #unity-loading-bar {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -45,9 +58,7 @@ body {
   margin-top: 10px;
   background: url("progress-bar-full-dark.png") no-repeat center;
 }
-#unity-footer {
-  position: relative;
-}
+
 .unity-mobile #unity-footer {
   display: none;
 }
@@ -69,7 +80,7 @@ body {
   width: 38px;
   height: 38px;
   background: url("fullscreen-button.png") no-repeat center;
-}
+} */
 #unity-mobile-warning {
   position: absolute;
   left: 50%;
