@@ -60,7 +60,10 @@ document.body.appendChild(script);
 const playButton = document.querySelector("button");
 const startScreen = document.querySelector(".startScreen");
 playButton.addEventListener("click", () => {
-  startScreen.style.display = "none";
+  startScreen.classList.add("fadeOut");
+  setTimeout(function () {
+    startScreen.style.display = "none";
+  }, 900);
 });
 
 const elements = document.querySelectorAll(".hidden");
