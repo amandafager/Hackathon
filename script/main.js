@@ -57,7 +57,7 @@ script.onload = () => {
 };
 document.body.appendChild(script);
 
-const playButton = document.querySelector("button");
+const playButton = document.querySelector(".buttonWrapper");
 const startScreen = document.querySelector(".startScreen");
 playButton.addEventListener("click", () => {
   startScreen.classList.add("fadeOut");
