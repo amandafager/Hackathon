@@ -16,7 +16,7 @@ body {
 }
 
 .startScreen h1 {
-  animation: 2.5s ease-in 0s 1 slideInFromLeft;
+  animation: 2.5s ease-in 0s 1 fadeIn;
   color: #a4161a;
   margin-bottom: 2rem;
   /* opacity: 0;
@@ -27,46 +27,29 @@ body {
   border: none;
   background-color: transparent;
 }
-
-.fadeInElement {
-  animation: 1s ease-in 2s 1 fadeIn;
+button svg {
+  overflow: visible;
 }
-
 button svg .fadeIn3 {
   animation: 1s ease-in 1.4s 1 fadeIn;
+  cursor: pointer;
+  transition: transform 0.6s ease;
+  /* transition: filter 0.1s ease; */
+  box-shadow: -12px -16px 6px rgba(0, 0, 0, 0.25);
 }
-
+button svg .fadeIn3:hover {
+  transform: scale(1.05);
+  transform-origin: 0, 100%;
+  filter: drop-shadow(20px 20px 2px rgb(0 0 0 / 0.4));
+}
 button svg .fadeIn2 {
   animation: 1.5s ease-in 0.7s 1 fadeIn;
 }
-
 button svg .fadeIn1 {
   animation: 1.5s ease-in 0.2s 1 fadeIn;
 }
-
 .hidden {
   opacity: 0;
-}
-
-.startScreen .hideButton {
-  /* opacity: 0;
-  transition: opacity 3s 1s ease-in; */
-}
-
-.showButton {
-  opacity: 1;
-  transition: opacity 3s 1s ease-in;
-}
-
-@keyframes slideInFromLeft {
-  0% {
-    /* transform: translateX(-100%); */
-    opacity: 0;
-  }
-  100% {
-    /* transform: translateX(0); */
-    opacity: 1;
-  }
 }
 
 @keyframes fadeIn {
@@ -76,10 +59,6 @@ button svg .fadeIn1 {
   100% {
     opacity: 1;
   }
-}
-
-.h1In {
-  opacity: 1;
 }
 
 #unity-container {

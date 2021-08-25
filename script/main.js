@@ -59,21 +59,12 @@ document.body.appendChild(script);
 
 const playButton = document.querySelector("button");
 const startScreen = document.querySelector(".startScreen");
-console.log(playButton);
-
 playButton.addEventListener("click", () => {
   startScreen.style.display = "none";
 });
 
 const elements = document.querySelectorAll(".hidden");
-
-/* const one = document.querySelector(".fadeIn1");
-const two = document.querySelector(".fadeIn2");
-const three = document.querySelector(".fadeIn3"); */
-
 elements.forEach((element) => {
-  /* element.classList.add("fadeInElement"); */
-
   setTimeout(function () {
     element.classList.remove("hidden");
   }, 1500);
