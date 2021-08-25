@@ -7,12 +7,6 @@ const cardItems = [
   },
   {
     avatar: "",
-    name: "Nicklas Hidesjö",
-    education: "Game Creator Programmer",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium orci sem, in rutrum nisi bibendum vitae. Sed suscipit ac metus in rutrum.",
-  },
-  {
-    avatar: "",
     name: "Josefin Ramsberg",
     education: "Game Creator Artist",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium orci sem, in rutrum nisi bibendum vitae. Sed suscipit ac metus in rutrum.",
@@ -25,8 +19,14 @@ const cardItems = [
   },
   {
     avatar: "",
-    name: "Moa Eriksson",
+    name: "Moa Erikson",
     education: "UX Designer",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium orci sem, in rutrum nisi bibendum vitae. Sed suscipit ac metus in rutrum.",
+  },
+  {
+    avatar: "",
+    name: "Nicklas Hidesjö",
+    education: "Game Creator Programmer",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium orci sem, in rutrum nisi bibendum vitae. Sed suscipit ac metus in rutrum.",
   },
 ];

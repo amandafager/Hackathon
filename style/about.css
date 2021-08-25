@@ -11,11 +11,7 @@
 }
 
 .creators {
-  /*  background-color: #660708; */
   padding: 2rem 1rem 2rem 1rem;
-}
-.creators h2 {
-  /* color: white; */
 }
 
 .aboutProject p {
@@ -63,9 +59,6 @@ h4 {
   height: 2px;
   background-color: #d3d3d3;
 }
-/* .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(108, 108, 108, 0.2);
-} */
 
 .cards {
   max-width: 1000px;
