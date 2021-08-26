@@ -45,13 +45,24 @@ canvas {
   color: black;
   position: absolute;
   z-index: 1;
-  top: 0;
-  left: 0;
-  padding: 1rem;
+  /* top: 0;
+  left: 0; */
+  bottom: 0;
+  right: 0;
+  padding: 4rem;
+  /* margin-left: 2rem; */
+  margin-right: 2rem;
+  background-image: url("../images/Button_About.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  text-decoration: none;
 }
 
 .startScreen .aboutLink:hover {
-  color: #ba181b;
+  color: white;
+  text-decoration: underline;
 }
 
 .startScreen button {
