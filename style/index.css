@@ -162,6 +162,7 @@ canvas {
   background: white;
   padding: 10px;
   display: none;
+  z-index: 2;
 }
 
 #unity-loading-bar {
