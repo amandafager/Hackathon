@@ -14,7 +14,8 @@ const canvas = document.querySelector("canvas");
 const mobileWarning = document.querySelector("#unity-mobile-warning");
 
 if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-  /* config.devicePixelRatio = 1; */
+  config.devicePixelRatio = 1;
+
   mobileWarning.style.display = "block";
   setTimeout(() => {
     mobileWarning.style.display = "none";
