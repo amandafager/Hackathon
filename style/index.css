@@ -48,9 +48,7 @@ canvas {
   position: absolute;
   z-index: 1;
   bottom: 0;
-  right: 0;
-  padding: 4rem;
-  margin-right: 2rem;
+  padding: 3rem;
   background-image: url("../images/Button_About.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -58,6 +56,15 @@ canvas {
   text-align: center;
   text-decoration: none;
 }
+@media screen and (min-width: 600px) {
+  .startScreen .aboutLink {
+    bottom: 0;
+    right: 0;
+    padding: 4rem;
+    margin-right: 2rem;
+  }
+}
+
 .startScreen .aboutLink:hover {
   color: white;
   text-decoration: underline;
