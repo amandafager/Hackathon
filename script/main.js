@@ -34,6 +34,7 @@ if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
     mobileWarning.style.display = "none";
   }, 5000);
 } else {
+  /* config.devicePixelRatio = 1.5; */
   /* canvas.style.width = "1280px";
   canvas.style.height = "720px"; */
 }
