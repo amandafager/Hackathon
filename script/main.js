@@ -15,15 +15,14 @@ const mobileWarning = document.querySelector("#unity-mobile-warning");
 
 if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
   config.devicePixelRatio = 1;
-
   mobileWarning.style.display = "block";
   setTimeout(() => {
     mobileWarning.style.display = "none";
   }, 5000);
 } else {
-  let x = canvas.width / 16;
+  /* let x = canvas.width / 16;
   canvas.width = x;
-  canvas.height = x * 9;
+  canvas.height = x * 9; */
 }
 
 const bubbleFour = document.querySelector(".buttonWrapper");

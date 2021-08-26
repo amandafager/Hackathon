@@ -4,9 +4,9 @@ body {
   min-width: 100vw;
   min-height: 100vh;
 }
-
 canvas {
-  width: 420px;
+  width: 640px;
+  height: 360px;
 }
 
 @media screen and (min-width: 600px) {
