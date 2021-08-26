@@ -36,11 +36,13 @@
   font-family: Verdana, Tahoma, sans-serif;
 }
 
+html,
 body {
   background-color: #f5f3f4;
   margin: 0 auto;
   padding: 0;
   width: 100%;
+  min-width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
