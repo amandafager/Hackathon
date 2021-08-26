@@ -21,7 +21,7 @@ const cardItems = [
     avatar: "",
     name: "Moa Erikson",
     education: "UX Designer",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium orci sem, in rutrum nisi bibendum vitae. Sed suscipit ac metus in rutrum.",
+    text: "Som gruppens UX-designer har jag bland annat tagit ansvar för att få igång idégeneringen samt bygga upp en visuell prototyp som vi kan utgå från under projektets gång. Jag har arbetat med text och färg där enhetlighet och temat kärlek har varit i fokus. Jag har också under hela projektets gång arbetat för användarvänlighet och för att spelet ska ge en tillfredsställande upplevelse. ",
   },
   {
     avatar: "",

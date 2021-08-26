@@ -1,9 +1,9 @@
 const buildUrl = "Build";
-const loaderUrl = buildUrl + "/Downloads.loader.js";
+const loaderUrl = buildUrl + "/Hackathon.loader.js";
 const config = {
-  dataUrl: buildUrl + "/Downloads.data",
-  frameworkUrl: buildUrl + "/Downloads.framework.js",
-  codeUrl: buildUrl + "/Downloads.wasm",
+  dataUrl: buildUrl + "/Hackathon.data",
+  frameworkUrl: buildUrl + "/Hackathon.framework.js",
+  codeUrl: buildUrl + "/Hackathon.wasm",
   streamingAssetsUrl: "StreamingAssets",
   companyName: "DefaultCompany",
   productName: "Hackathon",
@@ -34,8 +34,8 @@ if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
     mobileWarning.style.display = "none";
   }, 5000);
 } else {
-  canvas.style.width = "960px";
-  canvas.style.height = "600px";
+  /* canvas.style.width = "1280px";
+  canvas.style.height = "720px"; */
 }
 /* loadingBar.style.display = "block"; */
 
