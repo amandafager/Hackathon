@@ -11,8 +11,13 @@
   </head>
   <body>
     <div class="startScreen">
-      <a class="aboutLink" href="/om-projektet">Om projektet</a>
-      <h1>Mellan raderna</h1>
+      <div id="unity-loading-bar">
+        Laddar sidan...
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <h1 class="hidden">Mellan raderna</h1>
       <div class="hideButton bubbleWrapper">
         <div class="buttonWrapper hidden">
           <img
@@ -42,6 +47,7 @@
           alt=""
         />
       </div>
+      <a class="aboutLink hidden" href="/om-projektet">Om projektet</a>
     </div>
     <canvas id="unity-canvas"></canvas>
     <div id="unity-mobile-warning">
