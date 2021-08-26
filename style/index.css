@@ -21,6 +21,19 @@ body {
   margin-bottom: 2rem;
 }
 
+.startScreen .aboutLink {
+  color: black;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+.startScreen .aboutLink:hover {
+  color: #ba181b;
+}
+
 .startScreen button {
   border: none;
   background-color: transparent;
