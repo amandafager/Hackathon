@@ -31,10 +31,13 @@ const cardItems = [
   },
 ];
 
+{
+  /* <img src="${avatar}" alt="Avatar" style="width: 100%" /> */
+}
+
 function createCard(avatar, name, education, text) {
   let template = `
       <div class="card">
-          <img src="${avatar}" alt="Avatar" style="width: 100%" />
           <h3>${name}</h3>
           <h4>${education}</h4>
           <div class="line"></div>

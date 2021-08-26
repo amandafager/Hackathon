@@ -30,7 +30,9 @@ const script = document.createElement("script");
 script.src = loaderUrl;
 script.onload = () => {
   createUnityInstance(canvas, config, (progress) => {})
-    .then((unityInstance) => {})
+    .then((unityInstance) => {
+      console.log("loading");
+    })
     .catch((message) => {
       alert(message);
     });
@@ -47,9 +49,6 @@ playButton.addEventListener("click", () => {
 });
 
 const elements = document.querySelectorAll(".hidden");
-
-console.log(elements);
-
 elements.forEach((element) => {
   setTimeout(function () {
     element.classList.remove("hidden");
