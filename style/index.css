@@ -4,22 +4,16 @@ body {
   min-width: 100vw;
   min-height: 100vh;
 }
+
 canvas {
-  width: 640px;
-  height: 360px;
+  width: 100vw;
+  height: calc(100vw * 9 / 16);
 }
 
 @media screen and (min-width: 600px) {
   canvas {
-    width: 640px;
-    height: 360px;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  canvas {
-    width: 1024px;
-    height: 576px;
+    width: 80vw;
+    height: calc(80vw * 9 / 16);
   }
 }
 
