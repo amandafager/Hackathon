@@ -66,13 +66,16 @@ function createCard(
         <h4>${education}</h4>
         <div class="line"></div>
         <p>${text}</p>
-        <a href="${link}" target="_blank">${linkTitle}</a>
-        <a href="${link2 ? link2 : ""}" target="_blank">${
-    linkTitle2 ? linkTitle2 : ""
-  }</a>
+        <div class="linkWrapper">
         <a href="mailto:${mail ? mail : ""}" target="_blank">${
     mail ? mail : ""
   }</a>
+          <a href="${link}" target="_blank">${linkTitle}</a>
+          <a href="${link2 ? link2 : ""}" target="_blank">${
+    linkTitle2 ? linkTitle2 : ""
+  }</a>
+          
+        </div>
       </div>`;
   return template;
 }
