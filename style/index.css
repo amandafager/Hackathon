@@ -4,7 +4,6 @@ body {
   min-width: 100vw;
   min-height: 100vh;
 }
-
 canvas {
   width: 100vw;
   height: calc(100vw * 9 / 16);
@@ -16,7 +15,6 @@ canvas {
     height: calc(80vw * 9 / 16);
   }
 }
-
 .startScreen {
   position: absolute;
   width: 100%;
@@ -28,7 +26,6 @@ canvas {
   justify-content: center;
   align-items: center;
 }
-
 .startScreen h1 {
   color: #a4161a;
   margin-bottom: 2rem;
@@ -36,7 +33,6 @@ canvas {
 .fadeInH1 {
   animation: 2.5s ease-in 0s 1 fadeIn;
 }
-
 .startScreen .aboutLink {
   color: black;
   position: absolute;
@@ -51,6 +47,7 @@ canvas {
   text-decoration: none;
   transition: 0.5s ease;
 }
+
 @media screen and (min-width: 600px) {
   .startScreen .aboutLink {
     bottom: 0;
@@ -59,7 +56,6 @@ canvas {
     margin-right: 2rem;
   }
 }
-
 .startScreen .aboutLink:hover {
   color: white;
   text-decoration: underline;
@@ -67,7 +63,6 @@ canvas {
 .fadeInAboutLink {
   animation: 0.6s ease-in 1s 1 fadeIn;
 }
-
 .startScreen button {
   border: none;
   background-color: transparent;
@@ -79,14 +74,12 @@ canvas {
   font-weight: bold;
   letter-spacing: 0.02rem;
 }
-
 .bubbleWrapper {
   position: relative;
 }
 .hidden {
   opacity: 0;
 }
-
 .buttonWrapper:hover > button {
   color: #ba181b;
 }
@@ -96,7 +89,6 @@ canvas {
 .bubbleFour {
   transition: filter 0.2s ease-in-out;
 }
-
 .bubbleThree {
   position: absolute;
   bottom: -20%;
@@ -112,7 +104,6 @@ canvas {
   bottom: -43%;
   left: -6%;
 }
-
 .buttonWrapperFade {
   animation: 1.4s ease-in 1.4s 1 fadeIn;
 }
@@ -134,11 +125,9 @@ canvas {
   bottom: -43%;
   left: -6%;
 }
-
 .fadeOut {
   animation: 1s linear fadeOut;
 }
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -155,7 +144,6 @@ canvas {
     opacity: 0;
   }
 }
-
 #unity-mobile-warning {
   position: absolute;
   left: 50%;
@@ -166,7 +154,6 @@ canvas {
   display: none;
   z-index: 2;
 }
-
 #unity-loading-bar {
   position: absolute;
   left: 50%;
@@ -174,7 +161,6 @@ canvas {
   transform: translate(-50%, -50%);
   display: none;
 }
-
 #unity-progress-bar-empty {
   width: 141px;
   height: 18px;

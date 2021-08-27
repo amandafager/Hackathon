@@ -5,7 +5,6 @@
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Verdana";
   src: url("../fonts/Verdana-BoldItalic.woff2") format("woff2");
@@ -13,7 +12,6 @@
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Verdana";
   src: url("../fonts/Verdana.woff2") format("woff2");
@@ -21,7 +19,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Verdana";
   src: url("../fonts/Verdana-Bold.woff2") format("woff2");
@@ -29,13 +26,11 @@
   font-style: normal;
   font-display: swap;
 }
-
 * {
   margin: 0%;
   box-sizing: border-box;
   font-family: Verdana, Tahoma, sans-serif;
 }
-
 html,
 body {
   background-color: #f5f3f4;
