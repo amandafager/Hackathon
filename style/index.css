@@ -15,6 +15,15 @@ canvas {
     height: calc(80vw * 9 / 16);
   }
 }
+
+@media screen and (min-width: 1300px) {
+  canvas {
+    width: 60vw;
+    height: calc(60vw * 9 / 16);
+    /* max-width: 500px;
+    max-height: calc(500px * 9 / 16); */
+  }
+}
 .startScreen {
   position: absolute;
   width: 100%;
