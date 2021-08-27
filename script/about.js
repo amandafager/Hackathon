@@ -30,7 +30,7 @@ const cardItems = [
     name: "Moa Erikson",
     education: "UX Designer",
     text: "Moa har bland annat tagit ansvar för att få igång idégeneringen samt bygga upp visuella prototyper utifrån gruppens idéer och tankar, som gruppen har kunnat utgå från under projektets gång. Moa har arbetat med text och färg där enhetlighet och temat kärlek har varit i fokus. Moa har även genomfört användartester på produkten och arbetat mot en användarvänlig produkt.",
-    link: "www.linkedin.com/in/moa-erikson",
+    link: "https://www.linkedin.com/in/moa-erikson/",
     linkTitle: "linkedin.com/in/moa-erikson",
     mail: "moa.erikson@hotmail.com",
   },
