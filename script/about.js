@@ -1,3 +1,11 @@
+const body = document.querySelector(".bodyAbout");
+
+window.addEventListener("load", () => {
+  setTimeout(function () {
+    body.classList.remove("hidden");
+  }, 1000);
+});
+
 const cardItems = [
   {
     avatar: "../images/avatars/Profil_Amanda.png",

@@ -1,6 +1,22 @@
 body {
   height: 100%;
 }
+
+.hidden {
+  opacity: 0;
+}
+
+.bodyAbout {
+  animation: 1.5s linear 0.5s 1 fadeIn;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .creators,
 .aboutProject {
   display: flex;
