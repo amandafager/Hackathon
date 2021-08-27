@@ -1,9 +1,9 @@
 const buildUrl = "Build";
-const loaderUrl = buildUrl + "/Hackathon (Compressed).loader.js";
+const loaderUrl = buildUrl + "/Hackathon.loader.js";
 const config = {
-  dataUrl: buildUrl + "/Hackathon (Compressed).data",
-  frameworkUrl: buildUrl + "/Hackathon (Compressed).framework.js",
-  codeUrl: buildUrl + "/Hackathon (Compressed).wasm",
+  dataUrl: buildUrl + "/Hackathon.data",
+  frameworkUrl: buildUrl + "/Hackathon.framework.js",
+  codeUrl: buildUrl + "/Hackathon.wasm",
   streamingAssetsUrl: "StreamingAssets",
   companyName: "DefaultCompany",
   productName: "Hackathon",
