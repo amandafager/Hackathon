@@ -32,7 +32,6 @@ const cardItems = [
     text: "Moa har bland annat tagit ansvar för att få igång idégeneringen samt bygga upp visuella prototyper utifrån gruppens idéer och tankar, som gruppen har kunnat utgå från under projektets gång. Moa har arbetat med text och färg där enhetlighet och temat kärlek har varit i fokus. Moa har även genomfört användartester på produkten och arbetat mot en användarvänlig produkt.",
     link: "https://www.linkedin.com/in/moa-erikson/",
     linkTitle: "linkedin.com/in/moa-erikson",
-    mail: "moa.erikson@hotmail.com",
   },
   {
     avatar: "../images/avatars/Profil_Nicklas.png",
@@ -54,8 +53,7 @@ function createCard(
   link,
   linkTitle,
   link2,
-  linkTitle2,
-  mail
+  linkTitle2
 ) {
   let template = `
       <div class="card">
@@ -67,9 +65,6 @@ function createCard(
         <div class="line"></div>
         <p>${text}</p>
         <div class="linkWrapper">
-        <a href="mailto:${mail ? mail : ""}" target="_blank">${
-    mail ? mail : ""
-  }</a>
           <a href="${link}" target="_blank">${linkTitle}</a>
           <a href="${link2 ? link2 : ""}" target="_blank">${
     linkTitle2 ? linkTitle2 : ""
@@ -90,8 +85,7 @@ cardItems.forEach((cardItem) => {
     cardItem.link,
     cardItem.linkTitle,
     cardItem.link2,
-    cardItem.linkTitle2,
-    cardItem.mail
+    cardItem.linkTitle2
   );
   cardsWrapper.innerHTML += cardItem;
 });
