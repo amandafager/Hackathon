@@ -38,7 +38,7 @@ const cardItems = [
     avatar: "../images/avatars/Profil_Nicklas.png",
     name: "Nicklas Hidesjö",
     education: "Game Creator Programmer",
-    text: "Nicklas har med hjälp av Unity implementerat de tankar, idéer och design som vi tillsammans i gruppen kommit fram till och byggt upp produkten. Han har arbetat med att göra produkten fungerande och interaktiv.",
+    text: "Nicklas har med hjälp av Unity implementerat de tankar, idéer och design som vi tillsammans i gruppen kommit fram till och byggt upp produkten. Han har arbetat med att göra produkten fungerande och interaktiv och bidragit med idéer både kring produktens funktionalitet men även kring produkten i sin helhet.",
     link: "https://nicklashidesjo.itch.io/",
     linkTitle: "nicklashidesjo.itch.io",
     link2: "https://www.linkedin.com/in/nicklas-hidesjo/",
