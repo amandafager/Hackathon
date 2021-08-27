@@ -49,6 +49,7 @@ canvas {
   background-size: contain;
   text-align: center;
   text-decoration: none;
+  transition: 0.5s ease;
 }
 @media screen and (min-width: 600px) {
   .startScreen .aboutLink {
